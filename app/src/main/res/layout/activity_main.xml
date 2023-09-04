@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/component" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruang"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekspresi."
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginTop="190dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="32dp"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:backgroundTint="#BDBDBD"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:backgroundTint="#BDBDBD"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="24dp"
+        android:text="Log In"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#91A7CB"/>
+
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:paddingLeft="92sp"
+        android:layout_marginTop="16dp"
+        android:text="New Sobat Ekspresi?"
+        android:textColor="#CCCED3" />
+
+    <TextView
+        android:id="@+id/forgotPasswordTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="145sp"
+        android:layout_marginTop="16dp"
+        android:text="Create Account "
+        android:textStyle="bold"
+        android:textColor="#CCCED3" />
+</RelativeLayout>
