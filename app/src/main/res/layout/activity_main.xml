@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/loginButton"
         android:layout_centerHorizontal="true"
-        android:paddingLeft="145sp"
+        android:paddingLeft="175sp"
         android:layout_marginTop="16dp"
         android:text="Create Account "
         android:textStyle="bold"
